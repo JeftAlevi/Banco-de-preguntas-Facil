@@ -14,7 +14,9 @@ public class Practica02 {
         return area;
     }
     public static void main(String[] args) {
-        double area=areaPoligono("triangulo");
-        System.out.println("El area es: "+area);
+        double areat=areaPoligono("triangulo");
+        System.out.println("El area del triangulo es: "+areat);
+        double arear=areaPoligono("rectangulo");
+        System.out.println("El area del rectangulo es: "+arear);
     }
 }
